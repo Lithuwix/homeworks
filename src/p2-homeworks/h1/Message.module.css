@@ -1,0 +1,56 @@
+.message {
+    display: flex;
+    padding: 30px 100px;
+    background-color: #58588a;
+}
+.ava_img {
+    width: 50px;
+    margin-top: 50px;
+    margin-right: 35px;
+    border-radius: 50px;
+}
+.message_body {
+    position: relative;
+    width: 200px;
+    border-radius: 7px 7px 7px 0;
+    padding: 15px;
+    display: flex;
+    background-color: rgb(176, 187, 189);
+}
+.message_body:before {
+    content: "";
+    position: absolute;
+    top: 89px;
+    right: 229px;
+    background-color: rgb(176, 187, 189);
+    width: 20px;
+    height: 20px;
+}
+.message_body:after {
+    content: "";
+    position: absolute;
+    top: 88px;
+    right: 230px;
+    background-color: #58588a;
+    border-radius: 0 0 100px 4px;
+    width: 33px;
+    height: 22px;
+}
+
+.name {
+    padding-bottom: 5px;
+    color: #804ace;
+    font-weight: 500;
+}
+.message_text {
+    color: #bdf6ef;
+    font-weight: 400;
+}
+.message_time_container {
+    align-self: flex-end;
+}
+.message_time {
+    color: rgb(234, 233, 233);
+    font-weight: 300;
+    padding-left: 70px;
+}

@@ -1,0 +1,17 @@
+.someClass {
+
+}
+.buttons {
+    background-color: #F58907;
+    border: none;
+    font-size: 16px;
+    color: white;
+    margin: 15px 10px 0 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.buttons:hover {
+    cursor: pointer;
+    background-color: #FF3B08;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.49);
+}

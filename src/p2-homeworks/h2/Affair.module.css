@@ -1,0 +1,35 @@
+.task_item {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #e2d6dc;
+    display: inline-block;
+    width: 150px;
+}
+.task_priority {
+
+}
+.task_item_del_btn {
+    font-size: 10px;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #A508FF;
+    color: white;
+}
+.task_item_del_btn:hover {
+    cursor: pointer;
+    background-color: rgba(129, 42, 176, 0.79);
+}
+.container {
+    width: 300px;
+}
+.high_p {
+    color: #a80404;
+}
+.middle_p {
+    color: #a90d85;
+}
+.low_p {
+    color: #c5b9b9;
+}
